@@ -12,3 +12,5 @@ git commit -m "Your commit message here"
 Example:git commit -m "Fixed login issue and updated UI"
 5. Push to Your GitHub Repo
 git push origin main
+6. check historry of commits 
+git log --oneline --graph --decorate --all
