@@ -10,7 +10,7 @@ function isPalindrome(str) {
         if ((char >= 'a' && char <= 'z') || (char >= 'A' && char <= 'Z') || (char >= '0' && char <= '9')) {
             filteredStr += char.toLowerCase();
         }
-    }
+    } 
 
     // Check if the filtered string is a palindrome
     let left = 0;
